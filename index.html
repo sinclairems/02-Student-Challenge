@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Student Portfolio | Erin Sinclair | UTA Coding Bootcamp</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+</head>
+<body>
+    
+<!--NAV-->
+    <header class="nav-bar">
+        <h1>Erin M Sinclair</h1>
+        <nav>
+            <ul class="top-ul">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work-samples">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li> <!--this will eventually be a link to an outside pdf-->
+            </ul>
+        </nav>
+    </header>
+
+<!--BANNER-->
+    <div class="banner">
+        <h2 class="subtitle">Welcome</h2> 
+    </div>
+
+<!--ABOUT ME
+-->
+<main class="main-grid"> 
+    <div class="side-bar">
+        <h2>About Me</h2>
+    </div>
+    <div class="about-me">
+        <img id="profile-pic" src="Assets/images/profile-pic.jpg" alt="profile pic">
+        <p>This is stuff about me. How interesting.</p>
+        <p>Maybe even more stuff about me here. Wow.</p>
+    </div>
+
+<!--PORTFOLIO
+html structure borrowed from https://apyosi.github.io/Portfolio-Template-Lernantino/index.html#-->
+
+<div class="side-bar">
+    <h2>Work Samples</h2>
+</div>
+
+<section class="portfolio">
+
+<figure id="first-work-sample">
+    <a href="#">
+    <img src="Assets/images/work1.jpg" alt="ai cloud" width="500" height="400">
+        <figcaption>
+            <h3>HTML</h3>
+            <p>Pre-Work Study Guide</p>
+        </figcaption>
+    </a>   
+</figure>
+
+<figure id="second-work-sample">
+    <a href="https://sinclairems.github.io/02-student-mini-project/">
+    <img src="Assets/images/work2.jpg" alt="ai computer 1" width="500" height="200">
+        <figcaption>
+            <h3>CSS</h3>
+            <p>Student Mini-Project</p>
+        </figcaption>
+    </a>
+</figure>
+
+<figure id="third-work-sample">
+    <a href="#">
+        <img src="Assets/images/work3.jpg" alt="ai computer 2" width="500" height="200">
+        <figcaption>
+            <h3>JavaScript</h3>
+            <p>Coming Soon</p>
+        </figcaption>
+    </a>
+</figure>
+
+<figure id="fourth-work-sample">
+    <a href="#">
+        <img src="Assets/images/work4.jpg" alt="ai computer 3" width="500" height="200">
+        <figcaption>
+            <h3>APIs</h3>
+            <p>Coming Soon</p>
+        </figcaption>
+    </a>
+</figure>
+
+<figure id="fifth-work-sample">
+    <a href="#">
+        <img src="Assets/images/work5.jpg" alt="portfolio 5" width="500" height="200">
+        <figcaption>
+            <h3>RESUME</h3>
+            <p>Coming Soon</p>
+        </figcaption>
+    </a>
+</figure>
+</section>
+
+<!--CONTACT INFO-->
+    <div class="side-bar">
+        <h2>Contact Me</h2>
+    </div>
+    <div id="contact-me">
+        <ul class="contact-info">
+            <li><a href="#phone">555.555.5555</a></li>
+            <li><a href="#email">sinclair.ems@gmail.com</a></li>
+            <li><a href="#github">sinclairems@github.github</a></li>
+            <li><a href="#website">Website ❁ Coming Soon ❁</a></li> <!--symbol from https://coolsymbol.com/-->
+        </ul>
+    </div>
+</main>
+</body>
+</html>
+
+
+<!-- OTHER ATTEMPTS AT MAKING A GRID FOR THE PORTFOLIO
+    <div class="image-grid">
+        <img class="image-grid-col-2" src="./Assets/main.jpg" alt="main-work">
+        <img src="./Assets/sub1.jpg" alt="first-work">
+        <img src="./Assets/sub2.jpg" alt="second-work">
+        <img src="./Assets/sub3.jpg" alt="third-work">
+        <img src="./Assets/sub4.jpg" alt="fourth-work">
+    </div>
+
+    <div class="work1">
+        <img class="image-grid-col-2" src="./Assets/work1.jpg" alt="main-work" width="500" height="400">
+    </div>
+    <div class="work2">
+        <img src="./Assets/work2.jpg" alt="first-work">
+    </div>
+    <div class="work3">
+        <img src="./Assets/work3.jpg" alt="second-work">
+    </div>
+    <div class="work4">
+        <img src="./Assets/work4.jpg" alt="third-work">
+    </div>
+    <div class="work5">
+        <img src="./Assets/work5.jpg" alt="fourth-work">
+    </div>
+
+    <div class="portfolio">
+<div class="first-work-sample">
+    <figure id="first-work-sample">
+        <img src="./Assets/work1.jpg" alt="ai desktop scene" width="800" height="400">
+        <figcaption>
+            <h3>Resume</h3>
+            <p>Coming Soon</p>
+        </figcaption>
+    </figure>
+</div>
+
+<div class="second-work-sample">
+    <figure id="second-work-sample">
+        <img src="./Assets/work2.jpg" alt="ai keyboard">
+        <figcaption>
+            <h3>HTML</h3>
+            <p>Pre-Work Study Guide</p>
+        </figcaption>
+    </figure>
+</div>
+
+<div class="third-work.sample">
+    <figure id="thid-work-sample">
+        <img src="./Assets/work3.jpg" alt="ai computer tower"> 
+        <figcaption>
+            <h3>CSS</h3>
+            <p>Student Mini Project</p>
+        </figcaption>
+    </figure>
+</div>
+
+<div class="fourth-work-sample">
+    <figure id="fourth-work-sample">
+        <img src="./Assets/work4.jpg" alt="ai cloud">
+        <figcaption>
+            <h3>JavaScript</h3>
+            <p>Coming Soon</p>
+        </figcaption>
+    </figure>
+</div>
+
+<div class="fifth-work-sample">
+    <figure id="fifth-work-sample">
+        <img src="./Assets/work5.jpg" alt="ai computer scene 2"> 
+        <figcaption>
+            <h3>APIs</h3>
+            <p>Coming Soon</p>
+        </figcaption>
+    </figure>
+</div>
+</div>
+-->

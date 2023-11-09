@@ -1,0 +1,201 @@
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+
+header {
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkslategrey;
+
+}
+
+h1 {
+    padding: 0 10px 0 30px;
+    line-height: normal;
+    font-size: 50px;
+    background-color: aquamarine;
+}
+
+nav{
+    display: flex;
+    color: aquamarine;
+    float: right;
+}
+
+nav a {
+    padding: 5px 10px;
+    color: aquamarine;
+    font-size: 16px;
+}
+
+nav li {
+    padding: 5px;
+}
+
+.top-ul {
+    list-style: none;
+    display: flex;
+}
+
+.banner {
+    background-image: url(./images/banner.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    position: relative;
+}
+
+.subtitle {
+    padding: 0px 10px;
+    color: aquamarine;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+
+/* CSS grid structure borrowed from https://apyosi.github.io/Portfolio-Template-Lernantino/index.html# */
+.main-grid {
+    padding: 0 0 120px 0;
+    margin: 40px auto 0px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 15% 75%;
+    gap: 5%;
+}
+
+.side-bar {
+    padding-right: 15px;
+    border-right: 4px solid darkslategrey;
+    font-size: 20px;
+    text-align: end;
+}
+
+.about-me {
+    width: auto;
+    height: 200px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+#profile-pic{
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 4px 4px;
+    float: left;
+}
+
+/* CSS grid structure borrowed from https://apyosi.github.io/Portfolio-Template-Lernantino/index.html# */
+.portfolio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 410px 210px 210px;
+    grid-template-areas: 
+    "first-work-sample first-work-sample"
+    "second-work-sample third-work-sample"
+    "forth-work-sample fifth-work-sample";
+    gap: 20px;
+}
+
+.portfolio img {
+    object-fit: cover;
+    width: 100%;
+}
+
+figure {
+    width: 100%;
+    position: relative;
+    opacity: .85;
+}
+
+#first-work-sample {
+    grid-area: first-work-sample;
+}
+
+#second-work-sample {
+    grid-area: "second-work-sample";
+}
+
+#third-work-sample {
+    grid-area: "third-work-sample";
+}
+
+#fourth-work-sample {
+    grid-area: "fourth-work-sample";
+}
+
+#fifth-work-sample {
+    grid-area: "fifth-work-sample";
+}
+
+figcaption {
+    padding: 2px;
+    background-color: aquamarine;
+    color: black;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contact-info a {
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+
+Image Sources (current images are placeholders): 
+
+work1
+<a href="https://www.freepik.com/free-ai-image/creative-cloud-concept-glass-cube-cloudscape-digital-metaverse-infrastructure_40583133.htm#fromView=search&term=apis&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By svstudioart</a>
+
+work2
+<a href="https://www.freepik.com/free-ai-image/3d-workstation-with-computer-peripheral-devices_60908668.htm#fromView=search&term=html&page=1&position=7&track=ais_ai_generated&regularType=ai">Image By freepik</a>
+
+work3
+<a href="https://www.freepik.com/free-ai-image/view-3d-computer-device-with-peripheral-devices_60907777.htm#fromView=search&term=html&page=1&position=13&track=ais_ai_generated&regularType=ai">Image By freepik</a>
+
+work4
+<a href="https://www.freepik.com/free-ai-image/view-3d-computer-device-with-peripheral-devices_60907776.htm#fromView=search&term=html&page=1&position=31&track=ais_ai_generated&regularType=ai">Image By freepik</a>
+
+work5
+<a href="https://www.freepik.com/free-ai-image/3d-workstation-with-computer-peripheral-devices_60908686.htm#fromView=search&term=html&page=1&position=45&track=ais_ai_generated&regularType=ai">Image By freepik</a>
+*/
