@@ -7,6 +7,15 @@ The second challenge was to create a student portfolio similar to the exmaple gi
 
 I plan to keep up with the portfolio by adding working links instead of placeholders, changing the style (like the images and their borders), writing a better About Me, and connecting it to my real-world work! For now, one image link does work: try clicking on CSS|Student Mini-Project. It will take you to my version of the first mini-project. 
 
+## GitPages
+https://sinclairems.github.io/02-Student-Challenge/
+
+Screenshots
+![image](https://github.com/sinclairems/02-Student-Challenge/assets/50000677/79d940e7-4b3c-4239-bd24-a5ee4e485e47)
+![image](https://github.com/sinclairems/02-Student-Challenge/assets/50000677/edcf92b5-f9b6-466c-b2a5-8952429483bd)
+![image](https://github.com/sinclairems/02-Student-Challenge/assets/50000677/f19d3e31-d3e0-488e-a7c2-e1aefb05d5e2)
+
+
 ## Credits
 I had a lot of help on this one:
 
