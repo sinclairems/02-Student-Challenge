@@ -5,7 +5,7 @@ The second student challenge for UT Bootcamp
 The second challenge was to create a student portfolio similar to the exmaple given. This was challenging! It took a lot of time and effort to learn how to create the grid structure. I started with some code from freeCodeCamp, reviewed our class materials, watched few YouTube videos, discussed it with my tutor, and finally reverse engineered the code from its source. 
 
 
-I plan to keep up with the portfolio by adding working links instead of placeholders, changing the style (like the images and their borders), writing a better About Me, and connecting it to my real-world work! For now, one image link does work: try clicking on CSS|Student Mini-Project. It will take you to my version of the first mini-project. 
+I plan to keep up with the portfolio by adding working links instead of placeholders, changing the style (like the images and their borders), writing a better About Me, and connecting it to my real-world work! I will eventually add interactivity with JavaScript. For now, one image link does work: try clicking on CSS|Student Mini-Project. It will take you to my version of the first mini-project. 
 
 ## GitPages
 https://sinclairems.github.io/02-Student-Challenge/
