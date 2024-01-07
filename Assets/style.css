@@ -36,7 +36,7 @@ h1 {
     background-color: aquamarine;
 }
 
-nav{
+nav {
     display: flex;
     color: aquamarine;
     float: right;
@@ -52,7 +52,7 @@ nav li {
     padding: 5px;
 }
 
-.top-ul {
+.top-nav {
     list-style: none;
     display: flex;
 }
@@ -178,6 +178,14 @@ figcaption {
     color:black;
     display: flex;
     flex-wrap: wrap;
+}
+
+/* TO DO! Figure out how to get my "side-bar" to stack on top of it's own content */
+@media screen and (max-width: 915px) {
+    .side-bar {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 /*
